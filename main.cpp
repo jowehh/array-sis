@@ -28,7 +28,7 @@ void clearData();
 void exportCSV();
 int check_dir(const char *path, string csvFilename);
 
-int sCounter = 0;
+int studentCounter = 0;
 
 string student[100][8];
 string infoCol[8] = {"Last Name", "First Name", "Middle Name", "Birthdate", "Sex", "Religion", "Course", "Section"};
